@@ -31,8 +31,6 @@ const balwan = add([
 	pos(120, 80),    
 ])
 
-var audio = new Audio('muzyka.mp3');
-audio.play();
 
 // const player = add([
 // 	sprite("balwan"),   
