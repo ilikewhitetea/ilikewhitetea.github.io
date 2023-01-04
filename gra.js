@@ -10,6 +10,7 @@ loadSprite('tlo', 'background.png')
 loadSprite('balwan', '1.png')
 loadSprite("renifer", "2.png")
 loadSprite("sanki", "3.png")
+playSound("muzyka", "muzyka.mp3")
 
 const tlo = add([
 	sprite('tlo'),   
@@ -31,13 +32,4 @@ const balwan = add([
 	pos(120, 80),    
 ])
 
-function playSound(soundfile){
-    document.getElementById("sound").innerHTML="<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"true\"/>";
-}
-//if(onload(Window)){
-    playSound("muzyka.mp3"); 
-//}
-//Window: {
-  //  new (window); Window;
-   // prototype: Window;
-//}
+window.onload = ((playSound)("muzyka"))
