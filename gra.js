@@ -31,6 +31,13 @@ const balwan = add([
 	pos(120, 80),    
 ])
 
+function playSound(soundfile){
+    document.getElementById("sound").innerHTML="<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\"/>";
+}
+
+if(onclick){// Your condition
+    playSound("muzyka.mp3"); // Location to your sound file
+}
 
 // const player = add([
 // 	sprite("balwan"),   
