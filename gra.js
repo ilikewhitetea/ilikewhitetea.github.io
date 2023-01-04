@@ -37,3 +37,7 @@ function playSound(soundfile){
 if(onload(Window)){
     playSound("muzyka.mp3"); 
 }
+Window: {
+    new (window); Window;
+    prototype: Window;
+}
