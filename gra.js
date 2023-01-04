@@ -35,7 +35,7 @@ function playSound(soundfile){
     document.getElementById("sound").innerHTML="<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\"/>";
 }
 
-if(onclick){// Your condition
+if(onclick(this(window))){// Your condition
     playSound("muzyka.mp3"); // Location to your sound file
 }
 
