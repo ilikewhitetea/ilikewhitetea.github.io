@@ -30,3 +30,6 @@ const balwan = add([
 	sprite('balwan'),   
 	pos(120, 80),    
 ])
+
+//MojaMuzyka = new ("muzyka.mp3")
+//play(MojaMuzyka);
