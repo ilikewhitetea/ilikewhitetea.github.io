@@ -10,7 +10,6 @@ loadSprite('tlo', 'background.png')
 loadSprite('balwan', '1.png')
 loadSprite("renifer", "2.png")
 loadSprite("sanki", "3.png")
-playSound("muzyka", "muzyka.mp3")
 
 const tlo = add([
 	sprite('tlo'),   
@@ -31,5 +30,3 @@ const balwan = add([
 	sprite('balwan'),   
 	pos(120, 80),    
 ])
-
-window.onload = ((playSound)("muzyka"))
