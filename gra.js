@@ -34,3 +34,4 @@ const balwan = add([
 function playSound(soundfile){
     document.getElementById("sound").innerHTML="<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"true\"/>";
 }
+
