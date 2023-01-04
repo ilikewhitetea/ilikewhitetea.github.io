@@ -34,4 +34,6 @@ const balwan = add([
 function playSound(soundfile){
     document.getElementById("sound").innerHTML="<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"true\"/>";
 }
-
+if(onclick(window)){// Your condition
+    playSound("blackteamwon.mp3"); // Location to your sound file
+}
