@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="pl">
+    <script> 
+        function load() {
+            document.body.addEventListener("click", function () { document.getElementById("sfx").play() });
+        }
+    </script>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="gra.js" type="module"></script>
 </head>
-<body>
+<body onload="load()">
+    <audio id="sfx"><source src="muzyka.mp3"></audio>
 </body>
 </html>
