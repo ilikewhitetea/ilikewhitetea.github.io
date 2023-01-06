@@ -11,10 +11,14 @@ loadSprite('balwan', '1.png')
 loadSprite("renifer", "2.png")
 loadSprite("sanki", "3.png")
 
+
 const tlo = add([
 	sprite('tlo'),   
 	pos(0, 0),    
+	
 ])
+
+tlo.addEventListener("click", function () { document.getElementById("sfx").play() });
 
 const renifer = add([
 	sprite('renifer'),   
