@@ -18,7 +18,6 @@ const tlo = add([
 	
 ])
 
-tlo.addEventListener("click", function () { document.getElementById("sfx").play() });
 
 const renifer = add([
 	sprite('renifer'),   
