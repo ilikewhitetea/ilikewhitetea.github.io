@@ -31,6 +31,22 @@ const balwan = add([
 	pos(120, 80),    
 ])
 
+play("muzyka")
+
+// play a looping soundtrack (check out AudioPlayOpt for more options)
+const music = play("muzyka", {
+    volume: 0.8,
+    loop: true
+})
+
+// using the handle to control (check out AudioPlay for more controls / info)
+music.pause()
+music.play()
+
+music = ("muzyka","muzyka.mp3")
+
+
+
  //{
 	//audio = new audio('muzyka.mp3');
 	//audio.play();
