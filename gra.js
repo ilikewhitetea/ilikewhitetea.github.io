@@ -35,7 +35,7 @@ loadSound("muzyka","muzyka.mp3")
 
 
 // play a looping soundtrack (check out AudioPlayOpt for more options)
-const music = play("muzyka", {
+let music = play("muzyka", {
     volume: 0.8,
     loop: true
 })
