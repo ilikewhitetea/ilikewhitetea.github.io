@@ -30,20 +30,19 @@ const balwan = add([
 	sprite('balwan'),   
 	pos(120, 80),    
 ])
+loadSound("muzyka","muzyka.mp3")
 
-play("muzyka")
+
 
 // play a looping soundtrack (check out AudioPlayOpt for more options)
-const music = play("muzyka", {
+let music = play("muzyka", {
     volume: 0.8,
     loop: true
 })
 
 // using the handle to control (check out AudioPlay for more controls / info)
-music.pause()
+// music.pause()
 music.play()
-
-music = ("muzyka","muzyka.mp3")
 
 
 
