@@ -41,6 +41,8 @@ const music = play("muzyka", {
     loop: true
 })
 
+renifer.play ('jump')
+
 // play a looping soundtrack (check out AudioPlayOpt for more options)
 //let music = play("muzyka", {
   //  volume: 0.8,
