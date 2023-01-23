@@ -36,7 +36,7 @@ const balwan = add([
 
 loadSound("muzyka","muzyka.mp3")
 
-const music = play("OverworldlyFoe", {
+const music = play("muzyka", {
     volume: 0.8,
     loop: true
 })
@@ -49,7 +49,7 @@ const music = play("OverworldlyFoe", {
 
 // using the handle to control (check out AudioPlay for more controls / info)
 // music.pause()
-music.play()
+//music.play()
 
 
 
