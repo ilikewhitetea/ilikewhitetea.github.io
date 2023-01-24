@@ -42,6 +42,24 @@ const music = play("muzyka", {
 })
 
 renifer.play ('jump')
+loadSound("muzyka","muzyka.mp3")
+
+
+
+// play a looping soundtrack (check out AudioPlayOpt for more options)
+let music = play("muzyka", {
+    volume: 0.8,
+    loop: true
+})
+
+// using the handle to control (check out AudioPlay for more controls / info)
+// music.pause()
+//music.play()
+
+onKeyPress('space', ()=>{
+	play('muzyka')
+})
+
 
 // play a looping soundtrack (check out AudioPlayOpt for more options)
 //let music = play("muzyka", {
