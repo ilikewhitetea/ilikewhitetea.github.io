@@ -10,7 +10,7 @@ loadSprite('tlo', 'background.png')
 loadSprite('balwan', '1.png')
 loadSprite("renifer", "2.png")
 loadSprite("sanki", "3.png")
-
+loadSound("muzyka","muzyka.mp3")
 
 const tlo = add([
 	sprite('tlo'),   
@@ -34,23 +34,6 @@ const balwan = add([
 	pos(120, 80),    
 ])
 
-loadSound("muzyka","muzyka.mp3")
-
-const music = play("muzyka", {
-    volume: 0.8,
-    loop: true
-})
-
-renifer.play ('jump')
-loadSound("muzyka","muzyka.mp3")
-
-
-
-// play a looping soundtrack (check out AudioPlayOpt for more options)
-let music = play("muzyka", {
-    volume: 0.8,
-    loop: true
-})
 
 // using the handle to control (check out AudioPlay for more controls / info)
 // music.pause()
